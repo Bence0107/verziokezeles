@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-flex.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <main>
+            <h1>Flexboxok használata</h1>
+            <h3>Alapfogalmak</h3>
+            <ul>
+                <li>Flex konténer: Az az elem, amelyben a flexbox működik (display: flex; vagy display: inline-flex;).</li>
+                <li>Flex itemek: A konténer közvetlen gyerekelemei.</li>
+            </ul>
+            <p>Konténer tulajdonságai:</p>
+            <ol>
+                <li>flex-direction – Az irányt határozza meg:
+                    <ul>
+                        <li>row (alapértelmezett, balról jobbra)</li>
+                        <li>row-reverse (jobbról balra)</li>
+                        <li>column (fentről lefelé)</li>
+                        <li>column-reverse (lentről felfelé )</li>
+                    </ul>  
+                </li>
+                <li>justify-content - igazítás a fő tengelyen:
+                    <ul>
+                        <li>flex-start</li>
+                        <li>flex-end</li>
+                        <li>center</li>
+                        <li>space-between</li>
+                        <li>space-around</li>
+                        <li>space-evenly</li>
+                    </ul>
+                </li>
+                <li>align-items - igazítás a kereszt tengelyen:
+                    <ul>
+                        <li>stretch (alapértelmezett)</li>
+                        <li>flex-start</li>
+                        <li>flex-end</li>
+                        <li>center</li>
+                        <li>baseline</li>
+                    </ul>
+                </li>
+                <li>align-content - Többsoros elrendezésnél a sorok igazítása (csak ha több sor van)</li>
+                <li>flex-wrap - Engedi, hogy az elemek új sorba törjenek:
+                    <ul>
+                        <li>nowrap (alapértelmezett, egy sorban marad)</li>
+                        <li>wrap (több sorba törhető)</li>
+                        <li>wrap-reverse (fordított sorrendben törhető)</li>
+                    </ul>
+                </li>
+            </ol>
+        </main>
+        <aside>
+            <h3>Leggyakoribb hibák egy weboldalnál</h3>
+            <ul>
+                <li>Nem reszponzív, nem mobilbarát az oldal</li>
+                <li> Túl lassú weboldal</li>
+                <li>Átláthatatlan oldal</li>
+                <li>Olvashatatlan betűtípus és betűméret</li>
+                <li>Túl hosszú mondatok és bekezdések</li>
+                <li>Tagold a szöveget listákkal, rövidebb bekezdésekkel, mondatokkal, képekkel!</li>
+                <li>Jellemzően kettő, maximum három visszatérő színt használj!</li>
+                <li>A hasonló elemek mindig hasonló stílusban legyenek megjelenítve!</li>
+                <li>A vásárló helyett a cégről vagy a termékről szól az oldal</li>
+                <li>Keresőoptimalizálás hiánya</li>
+                <li>Tegező hangnemben írd meg a weboldalad szövegezését!</li>
+                <li>Vállald fel az arcodat, mutasd meg magad!</li>
+                <li>Unalmas weboldal</li>
+                <li>Igyekezz követni időről időre a trendeket!</li>
+                <li>Hiányzó jogi elemek</li>
+            </ul>
+            <a href="https://produkton.hu/weboldal/weboldal-hibak/">Részletesen a hibákról</a>
+        </aside>
+    </div>
+</body>
+
+</html>
